@@ -1,0 +1,131 @@
+header {
+    background: rgb(4, 4, 69);
+    padding: 15px 4%;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+        }
+    }
+}
+
+nav {
+    .box {
+        padding: 24px 4%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: 20px;
+
+            a {
+                text-decoration: none;
+                color: #000;
+                font-family: Roboto;
+                font-size: 14px;
+            }
+        }
+
+        span {
+            display: none;
+        }
+    }
+
+    .box2 {
+        background: #D3F1F3;
+        display: flex;
+        justify-content: center;
+        padding: 21px 0;
+        gap: 1%;
+
+        h1 {
+            color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+        }
+
+        p {
+            color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+        }
+    }
+}
+
+
+@media (max-width: 447px) {
+    header {
+        ul {
+            gap: 10px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+    nav{
+        .box {
+            img {
+                width: 100px;
+            }
+
+            ul {
+                display: none;
+            }
+
+            span {
+                display: block;
+            }
+        }
+        .box2{
+            h1{
+                font-size: 10px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) and (min-width:448px) {
+    nav {
+        .box {
+            img {
+                width: 100px;
+            }
+
+            ul {
+                display: none;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        .box2 {
+            h1 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

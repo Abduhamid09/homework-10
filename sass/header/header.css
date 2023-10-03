@@ -1,0 +1,98 @@
+header {
+  background: rgb(4, 4, 69);
+  padding: 15px 4%;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+}
+header ul a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+nav .box {
+  padding: 24px 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .box ul {
+  display: flex;
+  gap: 20px;
+}
+nav .box ul a {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+}
+nav .box span {
+  display: none;
+}
+nav .box2 {
+  background: #D3F1F3;
+  display: flex;
+  justify-content: center;
+  padding: 21px 0;
+  gap: 1%;
+}
+nav .box2 h1 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+}
+nav .box2 p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+}
+
+@media (max-width: 447px) {
+  header ul {
+    gap: 10px;
+  }
+  header ul a {
+    font-size: 12px;
+  }
+  nav .box img {
+    width: 100px;
+  }
+  nav .box ul {
+    display: none;
+  }
+  nav .box span {
+    display: block;
+  }
+  nav .box2 h1 {
+    font-size: 10px;
+  }
+  nav .box2 p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 769px) and (min-width: 448px) {
+  nav .box img {
+    width: 100px;
+  }
+  nav .box ul {
+    display: none;
+  }
+  nav .box span {
+    display: block;
+  }
+  nav .box2 h1 {
+    font-size: 12px;
+  }
+  nav .box2 p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=header.css.map */

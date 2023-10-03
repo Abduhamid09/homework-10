@@ -1,0 +1,70 @@
+footer {
+  background: #F6F6F8;
+}
+footer .box {
+  padding: 7% 0;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+footer .box .item {
+  padding: 0 123px 0 0;
+}
+footer .box .item .app {
+  padding-top: 35px;
+  display: flex;
+  gap: 10px;
+}
+footer .box .item .app img {
+  width: 88px;
+}
+footer .box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .box ul .a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.571px;
+  text-decoration: none;
+  padding-bottom: 17px;
+}
+footer .box ul a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}
+footer .box2 {
+  border-top: 5px solid;
+  margin: 0 10%;
+}
+footer .box2 .text {
+  justify-content: center;
+  padding-top: 3%;
+  display: flex;
+  gap: 12px;
+}
+footer .box2 .text P {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  footer .box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .box ul {
+    padding-top: 20px;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

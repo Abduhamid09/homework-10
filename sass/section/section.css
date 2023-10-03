@@ -1,0 +1,498 @@
+.sec1 .box1 {
+  height: 100vh;
+  background-image: url(../../img/collage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 49px 0;
+}
+.sec1 .box1 .text {
+  max-width: 488px;
+}
+.sec1 .box1 .text h1 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  line-height: 48px;
+}
+.sec1 .box1 .text p {
+  padding-top: 1%;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 27px;
+  line-height: 40px;
+}
+.sec1 .box1 .sign {
+  display: flex;
+  gap: 20px;
+}
+.sec1 .box1 .sign .in input {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Roboto;
+  font-size: 16px;
+  padding: 13px 100px 13px 22px;
+  border: none;
+}
+.sec1 .box1 .sign .btn button {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #190083;
+  padding: 13px 27px;
+  border: none;
+  cursor: pointer;
+}
+.sec1 .box2 {
+  padding: 7% 10px;
+}
+.sec1 .box2 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec1 .box2 .text .title {
+  max-width: 422px;
+}
+.sec1 .box2 .text .title h1 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+}
+.sec1 .box2 .text p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  padding-top: 4%;
+}
+.sec1 .box2 .box_item {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sec1 .box2 .box_item .child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 6.8%;
+}
+.sec1 .box2 .box_item .child .item {
+  max-width: 245px;
+}
+.sec1 .box2 .box_item .child .item .text1 {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec1 .box2 .box_item .child .item .text1 h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+}
+.sec1 .box2 .box_item .child .item .text1 .title {
+  max-width: 246px;
+}
+.sec1 .box2 .box_item .child .item .text1 .title p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  padding-top: 6%;
+}
+.sec1 .box2 .btn {
+  padding-top: 6%;
+  display: flex;
+  justify-content: center;
+}
+.sec1 .box2 .btn button {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #190083;
+  padding: 15px 24px 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.sec2 .btn button {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #190083;
+  padding: 15px 24px 17px;
+  border: none;
+  cursor: pointer;
+}
+.sec2 .box1 {
+  padding: 7% 0;
+  height: 100vh;
+  background-image: url(../../img/girrls.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec2 .box1 .text {
+  display: flex;
+  justify-content: center;
+}
+.sec2 .box1 .text h1 {
+  max-width: 345px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+}
+.sec2 .box1 .item {
+  background: #FFF;
+  padding: 3.5% 4%;
+  margin: 0 11%;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.sec2 .box1 .item .text1 h1 {
+  max-width: 486px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 21px;
+}
+.sec2 .box1 .item .text1 .title1 {
+  padding-top: 2%;
+  display: flex;
+}
+.sec2 .box1 .item .text1 .title1 p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sec2 .box1 .item .text1 .title1 p:nth-child(1) {
+  font-weight: 700;
+}
+.sec2 .box2 {
+  padding: 6% 0;
+  background: #F6F6F8;
+}
+.sec2 .box2 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec2 .box2 .text h1 {
+  max-width: 744px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sec2 .box2 .text p {
+  padding-top: 2.7%;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.sec2 .box2 .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  gap: 2%;
+  row-gap: 20px;
+}
+.sec2 .box2 .item .child {
+  border: 3px solid #C2CCD4;
+}
+.sec2 .box2 .item .child img {
+  border-bottom: 3px solid #C2CCD4;
+}
+.sec2 .box2 .item .child p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 1%;
+}
+.sec2 .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+.sec2 .box3 {
+  background-color: #F3E02B;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec2 .box3 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2 .box3 .text h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  max-width: 441px;
+}
+.sec2 .box3 .text p {
+  max-width: 647px;
+  padding-top: 3%;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.sec3 .box1 {
+  padding: 6% 0;
+}
+.sec3 .box1 .text {
+  display: flex;
+  justify-content: center;
+}
+.sec3 .box1 .text h1 {
+  max-width: 459px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sec3 .box1 .item {
+  margin: 5.8% 4% 0;
+  padding: 5% 54% 5% 5%;
+  height: 100vh;
+  background-image: url(../../img/humsn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.sec3 .box1 .item .child {
+  padding: 10%;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec3 .box1 .item .child p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 15%;
+}
+.sec3 .box2 {
+  background: #EBEEF3;
+}
+.sec3 .box2 .text {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec3 .box2 .text h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sec3 .box2 .text p {
+  padding-top: 3%;
+  max-width: 552px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.sec3 .box2 .item {
+  display: flex;
+  align-items: start;
+  padding: 9.8% 0 0 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4%;
+  padding-bottom: 10%;
+}
+.sec3 .box3 {
+  background: #0F1035;
+  padding: 7% 0;
+  display: flex;
+  justify-content: center;
+}
+.sec3 .box3 .text h1 {
+  max-width: 424px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sec3 .box3 .text p {
+  padding-top: 7%;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.sec3 .box3 .text .btn {
+  padding-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+.sec3 .box3 .text .btn input {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 13px 14% 13px 21px;
+}
+.sec3 .box3 .text .btn button {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #F10;
+  padding: 12px 26px 14px 27px;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .sec3 .box1 .item {
+    padding: 13%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec3 .box1 .item .child {
+    padding: 7%;
+  }
+}
+@media (max-width: 769px) {
+  .sec1 .box1 .text {
+    max-width: 270px;
+  }
+  .sec1 .box1 .text h1 {
+    font-size: 30px;
+  }
+  .sec1 .box1 .text p {
+    font-size: 20px;
+  }
+  .sec1 .box1 .sign {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec1 .box1 .sign .in input {
+    padding: 13px 60px 13px 20px;
+  }
+  .sec1 .box1 .sign .btn button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .sec1 .box2 .text .title h1 {
+    font-size: 25px;
+  }
+  .sec1 .box2 .text p {
+    font-style: 18px;
+  }
+  .sec2 .box1 .text h1 {
+    font-size: 30px;
+  }
+  .sec2 .box1 .item .text1 h1 {
+    font-size: 17px;
+  }
+  .sec2 .box1 .item .text1 .title1 p {
+    font-size: 14px;
+  }
+  .sec2 .box2 .text h1 {
+    font-size: 25px;
+  }
+  .sec2 .box2 .text p {
+    font-size: 15px;
+  }
+  .sec2 .box3 .text {
+    padding: 0 2%;
+  }
+  .sec2 .box3 .text h1 {
+    font-size: 25px;
+  }
+  .sec2 .box3 .text p {
+    font-size: 18px;
+  }
+  .sec3 .box1 .text h1 {
+    font-size: 25px;
+  }
+  .sec3 .box1 .item .child img {
+    width: 200px;
+  }
+  .sec3 .box2 .text h1 {
+    font-size: 25px;
+    padding: 0 5%;
+  }
+  .sec3 .box2 .text p {
+    font-size: 18px;
+    padding: 5%;
+  }
+  .sec3 .box3 .text h1 {
+    font-size: 25px;
+  }
+  .sec3 .box3 .text p {
+    font-size: 18px;
+  }
+  .sec3 .box3 .text .btn button {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=section.css.map */
